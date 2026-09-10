@@ -39,12 +39,12 @@ class MainApp extends StatelessWidget {
               label: 'Home',
             ),
             BottomNavigationBarItem(
-              icon: Icon(Icons.business),
-              label: 'Business',
+              icon: Icon(Icons.add_circle),
+              label: 'New',
             ),
             BottomNavigationBarItem(
-              icon: Icon(Icons.school),
-              label: 'School',
+              icon: Icon(Icons.notification_add),
+              label: 'Notifications',
             ),
           ],
           selectedItemColor: const Color.fromARGB(255, 59, 122, 173),
