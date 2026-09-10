@@ -13,7 +13,7 @@ class Block extends StatelessWidget{
           children: [
             Column(
               children: [
-                Text('Snezhnaya: Tha Nation of Love')
+                Text('Snezhnaya: The Nation of Love')
               ],
             ),
             Text('Get to know more')
