@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/widgets/card1.dart';
 import 'package:flutter_application_1/widgets/card2.dart';
+import 'package:flutter_application_1/widgets/block.dart';
 
 void main() {
   runApp(const MainApp());
@@ -28,7 +29,8 @@ class MainApp extends StatelessWidget {
           child: Column(
             children: [
               Card1(),
-              Card2()
+              Card2(),
+              Block(),
             ],
           )
         ),
